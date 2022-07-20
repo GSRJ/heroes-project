@@ -120,10 +120,11 @@ nav ul li:hover, nav ul li a:hover {
     letter-spacing: 5px;
     color: var(--red);
     text-shadow: 2px 2px 2px black;
-    font-size: 90px;
+    font-size: 120px;
+    margin-top: -5%;
     font-weight: lighter;
      text-align: center;
-    transform: translatex(100px);
+    transform: translatex(160px);
     transition: transform 0.5s;
 }
 
@@ -382,7 +383,7 @@ footer .last a {
     header,
     header .content {
         height: 250px;
-        background-color: white;
+        background-color: whi;
     }
 
     .header-block .text h2 {
@@ -392,6 +393,7 @@ footer .last a {
         text-shadow: 2px 2px 2px black;
         font-size: 50px;
         text-align: left;
+        margin-top: 2%;
         transform: translatex(130px);
         transition: transform 0.4s;
 
