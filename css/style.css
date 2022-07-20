@@ -116,12 +116,13 @@ nav ul li:hover, nav ul li a:hover {
 }
 
 .header-block .text h2 {
+    display: none;
     font-family: "dafont";
     letter-spacing: 5px;
     color: var(--red);
     text-shadow: 2px 2px 2px black;
     font-size: 120px;
-    margin-top: -5%;
+    margin-top: 5%;
     font-weight: lighter;
      text-align: center;
     transform: translatex(160px);
@@ -368,7 +369,12 @@ footer .last a {
 
 /* Responsivity */
 
+
 @media (max-width: 576px) {
+    body{
+        background-color: lightgray;
+    }
+
     nav ul li {
         display:none ;
     }
@@ -383,7 +389,7 @@ footer .last a {
     header,
     header .content {
         height: 250px;
-        background-color: whi;
+        background-color:lightgrey;
     }
 
     .header-block .text h2 {
@@ -426,9 +432,11 @@ footer .last a {
     }
 
     .title-wrapper-history {
+        color: var(--red);
         margin-bottom: 20px;
         font-size: 50px;
         text-align: center;
+        text-shadow: none;
     }
     
     .history-content {
@@ -451,8 +459,10 @@ footer .last a {
     }
 
     .title-wrapper-catalog{
+        color: var(--red);
         font-size: 50px;
         text-align: center;
+        text-shadow: none;
     }
 
     .titl
@@ -468,4 +478,5 @@ footer .last a {
         flex-direction: column;
         padding-left: 10%;
     }
+
 }
