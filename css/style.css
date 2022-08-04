@@ -225,16 +225,19 @@ section .filter-card {
 }
 
 section .card-wrapper {
+    display: flex;
     max-width: 1000px;
     height: 100%;
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 10px;
     padding-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 section .card-item {
     height: 400px;
+    width: 30%;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 8px;
     display: flex;
